@@ -2,7 +2,7 @@ import sys
 import pandas as pd
 import matplotlib.pyplot as plt
 
-sys.path.append("/workspaces/fj49_week2_ds")
+# sys.path.append("/workspaces/fj49_week2_ds")
 from sorc.main import mean, median, mode, std, viz, reader
 
 spotify = reader()
