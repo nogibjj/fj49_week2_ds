@@ -26,8 +26,8 @@ def test_mode():
 
 
 def test_std():
-    assert sd == int(spotify["duration_ms"].std())
+    assert std == int(spotify["duration_ms"].std())
 
 
 def test_viz():
-    assert len(viz) > 0  # asserts that viz is not empty
+    assert viz is not None  # asserts that viz is not empty

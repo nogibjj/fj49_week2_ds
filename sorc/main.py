@@ -47,6 +47,9 @@ def viz():
     plt.show()
 
 
+vis = viz()
+print(len(vis))
+
 # def sanity_add(x, y):
 #     return x + y
 
