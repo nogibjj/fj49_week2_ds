@@ -30,7 +30,6 @@ def viz():
     value_counts = spotify["artist_name"].value_counts()
     top_10_value_counts = value_counts.head(10)
 
-    value_counts
     plt.figure(figsize=(20, 12))
     plt.bar(top_10_value_counts.index, top_10_value_counts.values)
     # Add labels and a title to the plot
