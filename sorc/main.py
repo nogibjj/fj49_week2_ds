@@ -8,6 +8,9 @@ def reader():
     return spotify
 
 
+spotify = reader()
+
+
 # basic stats
 def mean():
     mean_duration = int(spotify["duration_ms"].mean())
