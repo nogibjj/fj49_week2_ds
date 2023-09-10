@@ -26,6 +26,6 @@ This repository is integrated with a CI/CD template for automatic deployment of 
 ## Development Environment
 
 - The repository includes a `.devcontainer` folder with configurations for the VS Code remote container development environment.
-- The `.github/workflows/main.yml` file defines the Continuous Integration (CI) workflow using GitHub Actions.
+- The `.github/workflows/cicd.yml` file defines the Continuous Integration (CI) workflow using GitHub Actions.
 
 Explore the code and data to gain insights into the world of music with Spotify!
