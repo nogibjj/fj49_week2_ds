@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 sys.path.append("/workspaces/fj49_week2_ds")
 from sorc.main import mean, median, mode, std, viz
 
-spotify = pd.read_csv("playlist_2010to2022.csv")
+spotify = reader()
 mean = mean()
 median = median()
 mode = mode()

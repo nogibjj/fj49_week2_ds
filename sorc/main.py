@@ -1,13 +1,14 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-#reading the data
-spotify = pd.read_csv("playlist_2010to2022.csv")
+
+# reading the data
+def reader():
+    spotify = pd.read_csv("playlist_2010to2022.csv")
+    return spotify
 
 
-
-
-#basic stats
+# basic stats
 def mean():
     mean_duration = int(spotify["duration_ms"].mean())
     return mean_duration
@@ -27,7 +28,8 @@ def std():
     std_duration = int(spotify["duration_ms"].std())
     return std_duration
 
-#making a plot
+
+# making a plot
 def viz():
     value_counts = spotify["artist_name"].value_counts()
     top_10_value_counts = value_counts.head(10)
