@@ -3,5 +3,24 @@
 
 [![CiCd](https://github.com/nogibjj/fj49_week2_ds/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/fj49_week2_ds/actions/workflows/cicd.yml)
 
+# Spotify Data Analysis
 
-A python template with CI/CD setup to automate my workflow for other assignments in the course. Feel free to use it!
+This Python project analyzes data from the Spotify API, which is stored in a CSV file named `spotify.csv`. It provides insights into song lengths and identifies the top 10 artists with the most chart-topping hits between 2010 and 2022.
+
+## Features
+
+- Descriptive statistics on song lengths (in milliseconds) to showcase the variation.
+- Visualization of the top 10 artists with the most chart-topping hits. 
+
+
+
+## CI/CD Integration
+
+This repository is integrated with a CI/CD template for automatic deployment of Python projects within a virtual environment. You can find the template [here](LINK).
+
+## Development Environment
+
+- The repository includes a `.devcontainer` folder with configurations for the VS Code remote container development environment.
+- The `.github/workflows/main.yml` file defines the Continuous Integration (CI) workflow using GitHub Actions.
+
+Explore the code and data to gain insights into the world of music with Spotify!
