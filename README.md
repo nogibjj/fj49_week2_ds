@@ -10,7 +10,12 @@ This Python project analyzes data from the Spotify API, which is stored in a CSV
 ## Features
 
 - Descriptive statistics on song lengths (in milliseconds) to showcase the variation.
-- Visualization of the top 10 artists with the most chart-topping hits. 
+- Visualization of the top 10 artists with the most chart-topping hits.
+
+Here is the visualization:
+
+<img width="1580" alt="Screenshot 2023-09-10 at 7 11 13 PM" src="https://github.com/nogibjj/fj49_week2_ds/assets/101464414/cfc958df-4041-4c8f-be86-ab6885a69074">
+
 
 
 
