@@ -37,14 +37,14 @@ def std():
 def viz():
     value_counts = spotify["artist_name"].value_counts()
     top_10_value_counts = value_counts.head(10)
-
-    plt.figure(figsize=(20, 12))
-    plt.bar(top_10_value_counts.index, top_10_value_counts.values)
+    x = plt.figure(figsize=(20, 12))
+    x = plt.bar(top_10_value_counts.index, top_10_value_counts.values)
     # Add labels and a title to the plot
-    plt.xlabel("Top Artists")
-    plt.ylabel("Number of top tracks")
-    plt.title("Which artists had the most top tracks in the last few years?")
+    x = plt.xlabel("Top Artists")
+    x = plt.ylabel("Number of top tracks")
+    x = plt.title("Which artists had the most top tracks in the last few years?")
     plt.show()
+    return x
 
 
 # def sanity_add(x, y):
