@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 sys.path.append("/workspaces/fj49_week2_ds")
-from main import mean, median, mode, std, viz
+from sorc.main import mean, median, mode, std, viz
 
 spotify = pd.read_csv("playlist_2010to2022.csv")
 mean = mean()
