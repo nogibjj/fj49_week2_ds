@@ -9,6 +9,7 @@ def reader():
 
 
 spotify = reader()
+# print(spotify)
 
 
 # basic stats
