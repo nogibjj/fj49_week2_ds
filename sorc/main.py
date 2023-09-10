@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 
 # reading the data
 def reader():
-    spotify = pd.read_csv("playlist_2010to2022.csv")
-    return spotify
+    df = pd.read_csv("playlist_2010to2022.csv")
+    return df
 
 
 spotify = reader()
