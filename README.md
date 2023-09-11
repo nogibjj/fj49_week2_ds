@@ -27,11 +27,13 @@ Here is the visualization:
 
 ## CI/CD Integration
 
-This repository is integrated with a CI/CD template for automatic deployment of Python projects within a virtual environment. You can find the template [here]([https://github.com/farazjawedd/python-template-ids706]).
+This repository is integrated with a CI/CD template for automatic deployment of Python projects within a virtual environment. 
+
+You can find the template [here]([https://github.com/farazjawedd/python-template-ids706]). Feel free to use the template for other projects!
 
 ## Development Environment
 
 - The repository includes a `.devcontainer` folder with configurations for the VS Code remote container development environment.
 - The `.github/workflows/cicd.yml` file defines the Continuous Integration (CI) workflow using GitHub Actions.
 
-Explore the code and data to gain insights into the world of music with Spotify!
+Explore the code and data to gain insights into the world of music with Spotify! 
