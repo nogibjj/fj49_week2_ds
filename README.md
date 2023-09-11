@@ -27,7 +27,7 @@ Here is the visualization:
 
 ## CI/CD Integration
 
-This repository is integrated with a CI/CD template for automatic deployment of Python projects within a virtual environment. You can find the template [here](LINK).
+This repository is integrated with a CI/CD template for automatic deployment of Python projects within a virtual environment. You can find the template [here]([LINK](https://github.com/farazjawedd/python-template-ids706)).
 
 ## Development Environment
 
