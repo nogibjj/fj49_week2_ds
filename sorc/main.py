@@ -46,13 +46,16 @@ def viz():
     plt.show()
     return x
 
+#### To check results uncomment the following lines:
+# vis = viz()
 
-# def sanity_add(x, y):
-#     return x + y
+# _mean = mean()
+# _median = median()
+# _mode = mode()
+# _std = std()
 
+# print("Mean =", _mean)
+# print("Median", _median)
+# print("Mode", _mode)
+# print("Std=", _std)
 
-# if __name__ == "__main__":
-#     a = 1
-#     b = 2
-
-#     print(sanity_add(a, b))
