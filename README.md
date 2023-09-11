@@ -9,8 +9,14 @@ This Python project analyzes data from the Spotify API, which is stored in a CSV
 
 ## Features
 
-- Descriptive statistics on song lengths (in milliseconds) to showcase the variation.
-- Visualization of the top 10 artists with the most chart-topping hits.
+Descriptive statistics on song lengths (in milliseconds) to showcase the variation:
+
+- `Mean = 226033`
+- `Median = 221653`
+- `Mode = 236133`
+- `Std = 42063`
+
+Visualization of the top 10 artists with the most chart-topping hits.
 
 Here is the visualization:
 
